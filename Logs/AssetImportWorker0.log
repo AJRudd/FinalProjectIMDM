@@ -1,0 +1,214 @@
+Unity Editor version:    2020.3.23f1 (c5d91304a876)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.4 (Build 20G417)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/igotaboxof/Documents/Unity/FinalProjectIMDM
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57224
+Successfully changed project path to: /Users/igotaboxof/Documents/Unity/FinalProjectIMDM
+/Users/igotaboxof/Documents/Unity/FinalProjectIMDM
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/igotaboxof/Documents/Unity/FinalProjectIMDM/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-10 09:20:29.857 Unity[58860:2443942] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2022-04-10 09:20:29.857 Unity[58860:2443942] Metal devices available: 2
+2022-04-10 09:20:29.858 Unity[58860:2443942] 0: AMD Radeon Pro 5500M (high power)
+2022-04-10 09:20:29.858 Unity[58860:2443942] 1: Intel(R) UHD Graphics 630 (low power)
+2022-04-10 09:20:29.858 Unity[58860:2443942] Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000619 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.623 seconds
+Domain Reload Profiling:
+	ReloadAssembly (623ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001735 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/ARDK/Plugins/unity_exports/ardk_client_platform/Plugins/MacOS/x86_64/ardk_client_platform.bundle/Contents/MacOS/ardk_client_platform
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/ARDK/Plugins/unity_exports/ardk_client_platform/Plugins/MacOS/x86_64/ardk_client_platform.bundle/Contents/MacOS/ardk_client_platform.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/ARDK/Plugins/unity_exports/ardk_client_platform/Plugins/MacOS/x86_64/ardk_client_platform.bundle/Contents/MacOS/ardk_client_platform.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Frameworks/Mono/lib/libAssets/ARDK/Plugins/unity_exports/ardk_client_platform/Plugins/MacOS/x86_64/ardk_client_platform.bundle/Contents/MacOS/ardk_client_platform.bundle
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Niantic.ARDK.Internals.StartupSystems.SetAuthenticationParameters () [0x00077] in /Users/igotaboxof/Documents/Unity/FinalProjectIMDM/Assets/ARDK/Internals/StartupSystems.cs:117 
+  at Niantic.ARDK.Internals.StartupSystems.ManualStartup () [0x00005] in /Users/igotaboxof/Documents/Unity/FinalProjectIMDM/Assets/ARDK/Internals/StartupSystems.cs:58 
+  at Niantic.ARDK.Internals.StartupSystems.EditorStartup () [0x00000] in /Users/igotaboxof/Documents/Unity/FinalProjectIMDM/Assets/ARDK/Internals/StartupSystems.cs:34 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:158)
+
+(Filename: /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs Line: 158)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (356ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.013372 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.022102 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.2 MB.
+System memory in use after: 189.4 MB.
+
+Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 3.412917 ms (FindLiveObjects: 0.219088 ms CreateObjectMapping: 0.089896 ms MarkObjects: 2.547241 ms  DeleteObjects: 0.555977 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 2.347921 ms (FindLiveObjects: 0.114630 ms CreateObjectMapping: 0.067639 ms MarkObjects: 2.160111 ms  DeleteObjects: 0.004945 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ARDKExamples/ARDK-Examples.asmdef
+  artifactKey: Guid(79582743010684bb59de6cfe6965f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/ARDK-Examples.asmdef using Guid(79582743010684bb59de6cfe6965f7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4195fa7f9de5ad50d8c2719ab17e81a1') in 0.818703 seconds 
+  Import took 0.824402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.833588 seconds.
+  path: Assets/ARDKExamples/Resources
+  artifactKey: Guid(af65bfe7067574d6c831ca37eee145dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Resources using Guid(af65bfe7067574d6c831ca37eee145dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47150040f7531d6e8cabdb432007c1a8') in 0.001143 seconds 
+  Import took 0.004352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.068166 seconds.
+  path: Assets/ARDKExamples/Resources/ARDK
+  artifactKey: Guid(7d98cee1398bd4b30a0fc8a357f31974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Resources/ARDK using Guid(7d98cee1398bd4b30a0fc8a357f31974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b37baa612b124937156bc1fdd36f4c9') in 0.001182 seconds 
+  Import took 0.004901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087831 seconds.
+  path: Assets/ARDKExamples/Resources/ARDK/ArdkAuthConfig.asset
+  artifactKey: Guid(aca6f812f764d444299ccea621650927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARDKExamples/Resources/ARDK/ArdkAuthConfig.asset using Guid(aca6f812f764d444299ccea621650927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ad9d3a7b526ce9371285bd511f0f58') in 0.325539 seconds 
+  Import took 0.331687 seconds .
+
