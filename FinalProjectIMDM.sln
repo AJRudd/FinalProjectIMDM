@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK", "ARDK.csproj", "{dc9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK-Examples", "ARDK-Examples.csproj", "{e8924408-4700-a13b-23d1-843e5f5c7e66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{f4b70ebc-698b-f760-cf36-93a75c9b348d}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.UI", "UnityEditor.UI.csproj", "{5a82403d-df33-0132-6659-6af64e540dc3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARDK-Editor", "ARDK-Editor.csproj", "{690e6d29-8eb4-d94d-429a-2c582e2db093}"
@@ -29,6 +31,10 @@ Global
 		{e8924408-4700-a13b-23d1-843e5f5c7e66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{e8924408-4700-a13b-23d1-843e5f5c7e66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{e8924408-4700-a13b-23d1-843e5f5c7e66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{f4b70ebc-698b-f760-cf36-93a75c9b348d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f4b70ebc-698b-f760-cf36-93a75c9b348d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f4b70ebc-698b-f760-cf36-93a75c9b348d}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{f4b70ebc-698b-f760-cf36-93a75c9b348d}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5a82403d-df33-0132-6659-6af64e540dc3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5a82403d-df33-0132-6659-6af64e540dc3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5a82403d-df33-0132-6659-6af64e540dc3}.Release|Any CPU.ActiveCfg = Release|Any CPU
